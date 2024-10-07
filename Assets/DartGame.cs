@@ -23,7 +23,7 @@ public class DartGame : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                p.gameObject.GetComponent<Rigidbody>().AddForce(Quaternion.Euler(-24, 0, 0) * other.transform.forward * 30, ForceMode.Impulse);
+                p.gameObject.GetComponent<Rigidbody>().AddForce(Quaternion.Euler(-24, 0, 0) * other.transform.forward * 15, ForceMode.Impulse);
             }
         }
 
